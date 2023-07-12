@@ -17,4 +17,13 @@ This repository contains scripts for various purposes. Here is a brief descripti
 - `12-file_type`: This script prints the type of the file names iamafile that is in the /tmp directory.
 - `13-symbolic_link`: This script creates a symbolic link to /bin/ls, named __ls__ in the current directory.
 - `14-copy_html`: This script copies ann the HTML files from the current working directory to the parent of the working directory, but only copies only files that didn't exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
-- `
+- `100-lets_move`: THis script moves all files begining woth an uppercase letter to the directory `/tmp/u`.
+- `101-clean_emacs`: This script deletes all the files in the current working directory that ends with the character '~'
+- `102-tree`: This script creates the directories 'welcome/, welcome/to/ and welcome/to/school' in the current directory.
+- `103-commas`: This script lists all the files and directories of teh current directory, separated by commas (,). while ensuring that 
+	Directory names end with a slash
+	files and directories atarting with a dot are also listed
+	The listing are alphabetically ordered, except for the directories . and .. which should be listed at the beginning
+	Only digits and letters are used to sort; Digits coming first
+	the listing should end with a new line
+- `school.mgc`: This script creates a magic file `school.mgc` that can be used with the command file to dete4ct school data files.

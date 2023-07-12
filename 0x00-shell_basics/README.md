@@ -13,4 +13,5 @@ This repository contains scripts for various purposes. Here is a brief descripti
 - `8-firstdelete`: This script deletes the file betty from the directory tmp/my_first_directory.
 - `9-firstdirdeletion`: This script deletes the directory `my_first_directory` from `tmp`.
 - `10-back`: This script changes the working directory to the previous one.
+- `11-lists`: THis script list all files (including hidden ones) in the current directory and the parent of the working directory and the /boot directory in long format.
 

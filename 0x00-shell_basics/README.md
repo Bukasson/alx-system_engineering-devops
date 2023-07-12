@@ -14,4 +14,7 @@ This repository contains scripts for various purposes. Here is a brief descripti
 - `9-firstdirdeletion`: This script deletes the directory `my_first_directory` from `tmp`.
 - `10-back`: This script changes the working directory to the previous one.
 - `11-lists`: THis script list all files (including hidden ones) in the current directory and the parent of the working directory and the /boot directory in long format.
-
+- `12-file_type`: This script prints the type of the file names iamafile that is in the /tmp directory.
+- `13-symbolic_link`: This script creates a symbolic link to /bin/ls, named __ls__ in the current directory.
+- `14-copy_html`: This script copies ann the HTML files from the current working directory to the parent of the working directory, but only copies only files that didn't exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
+- `

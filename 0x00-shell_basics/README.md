@@ -6,4 +6,5 @@ This repository contains scripts for various purposes. Here is a brief descripti
 - `1-listit`: This script displays the contents list of the current directory.
 - `2-bring_me_home`: This script changes the working directory to the user's home directory, regardless of the current working directory.
 - `3-listfiles`: This script prints the directory contents in long format.
+- `4-listmorefiles`: This script prints the directory contents, (including hidden files) in the long format.
 

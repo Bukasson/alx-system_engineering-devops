@@ -10,4 +10,5 @@ This repository contains scripts for various purposes. Here is a brief descripti
 - `5-listfilesdigitonly1: This script prints the current directory contents, (including hidden files and user and gropu IDs displayed numerically) in long format.
 - `6-firstdirectory`: This script creates a directory named `my_first_directory` in the `/tmp/` directory.
 - `7-movethatfile`: This script moves the file betty from /tmp/ to /tmp/my_first_directory.
+- `8-firstdelete`: This script deletes the file betty from the directory tmp/my_first_directory.
 

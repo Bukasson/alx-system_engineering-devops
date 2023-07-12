@@ -8,4 +8,5 @@ This repository contains scripts for various purposes. Here is a brief descripti
 - `3-listfiles`: This script prints the directory contents in long format.
 - `4-listmorefiles`: This script prints the directory contents, (including hidden files) in the long format.
 - `5-listfilesdigitonly1: This script prints the current directory contents, (including hidden files and user and gropu IDs displayed numerically) in long format.
+- `6-firstdirectory`: This script creates a directory named `my_first_directory` in the `/tmp/` directory.
 

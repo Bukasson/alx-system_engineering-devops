@@ -1,2 +1,9 @@
 #!/bin/bash
-cp -u ./"*.html" ../
+shopt -s nullglob
+for file in *.html
+do
+  if [[ -f ../"$file" && "$file" -nt ../"$file" ]]
+  then
+    cp -u "$file" ../
+  fi
+done
